@@ -16,6 +16,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2264" y="171" key="CommitChangelistDialog2" timestamp="1597612125447">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2264" y="171" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.1027/3600.23.1920.1057@1680.23.1920.1057" timestamp="1597612125447" />
     <state x="2365" y="367" key="git4idea.merge.GitPullDialog" timestamp="1597612086627">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
