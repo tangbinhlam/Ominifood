@@ -185,6 +185,13 @@ header {
     border: 1px solid #cf6d17;
     color: #fff;
 }
+/*----------------------------------------*/
+/* FEATURE */
+/*----------------------------------------*/
+
+.session-feature .long-copy {
+    margin-bottom: 40px;
+}
 
 /*----------------------------------------*/
 /* MEALS */
@@ -216,10 +223,18 @@ header {
     width: 100%;
     height: auto;
     transform: scale(1.15);
-    transition: transform 0.5s opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 .meal-photo img:hover {
     opacity:1;
     transform: scale(1.03);
+}
+
+/*----------------------------------------*/
+/* SETPS */
+/*----------------------------------------*/
+
+.section-steps {
+    padding-top: 45px;
 }
