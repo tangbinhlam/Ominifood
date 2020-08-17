@@ -103,6 +103,12 @@ h3 {
     color: #e67e22;
     margin-bottom: 10px;
 }
+
+.icon-small {
+    color: #e67e22;
+    display: inline;
+     font-size: 150%;
+}
 /*----------------------------------------*/
 /* HEADER */
 /*----------------------------------------*/
@@ -287,4 +293,16 @@ header {
     height: 50px;
     width: auto;
     margin-right: 5px;
+}
+
+/*----------------------------------------*/
+/* CITIES */
+/*----------------------------------------*/
+.cities-box {
+    padding: 1%;
+}
+.cities-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
