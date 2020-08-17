@@ -456,3 +456,62 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
+
+/*----------------------------------------*/
+/* Footer navigation */
+/*----------------------------------------*/
+footer {
+    background-color: rgb(56, 56, 56);
+    padding: 60px;
+    font-size: 80%
+}
+
+.footer-nav,
+.social-links{
+    list-style: none;
+}
+
+.footer-nav li,
+.social-links li  {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child  {
+    margin-right: 0;
+}
+
+.social-links {
+    float: right;
+}
+
+.footer-nav {
+    float: left;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    border: 0;
+    text-decoration: none;
+    color: #888;
+    transition: color 0.2s
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    padding-top: 30px;
+}
