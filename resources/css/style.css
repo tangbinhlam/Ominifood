@@ -170,7 +170,8 @@ header {
 /* BUTTON */
 /*----------------------------------------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -180,7 +181,8 @@ header {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     color: #fff;
     border: 1px solid #e67e22;
@@ -199,7 +201,8 @@ header {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover {
     border: 1px solid #cf6d17;
 }
 
@@ -424,3 +427,32 @@ blockquote cite img {
 .plan-box div ul li{
     padding: 0 0 5px 0 ;
 }
+
+/*----------------------------------------*/
+/* section-contacts */
+/*----------------------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding:7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
